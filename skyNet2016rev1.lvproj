@@ -110,6 +110,12 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="FRC3958_DesignLibrary" Type="Folder">
+			<Item Name="Button Press.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Button Press.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Toggle.vi"/>
+			<Item Name="TriggerPosPID.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerPosPID.vi"/>
+			<Item Name="TriggerRotateLogic.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerRotateLogic.vi"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="autonDistance.vi" Type="VI" URL="../autonDistance.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -129,7 +135,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TriggerPosPID.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerPosPID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -627,7 +632,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Toggle.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Toggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
