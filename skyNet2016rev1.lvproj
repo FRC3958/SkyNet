@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="FRC3958_DesignLibrary" Type="Folder">
 			<Item Name="Button Press.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Button Press.vi"/>
+			<Item Name="TEST.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TEST.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Toggle.vi"/>
 			<Item Name="TriggerPosPID.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerPosPID.vi"/>
 			<Item Name="TriggerRotateLogic.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerRotateLogic.vi"/>
@@ -119,10 +120,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="autonDistance.vi" Type="VI" URL="../autonDistance.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="MotorSpeedState.ctl" Type="VI" URL="../MotorSpeedState.ctl"/>
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../../navX-MXP-LabVIEW/navX Library v2/navX Library v2.lvlib"/>
 			<Item Name="setShooterSpeed.vi" Type="VI" URL="../setShooterSpeed.vi"/>
 			<Item Name="ShooterState.ctl" Type="VI" URL="../Controls/ShooterState.ctl"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -246,8 +247,15 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Event Type.ctl"/>
 				<Item Name="NT Format Generic  to Config String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Format Generic  to Config String.vi"/>
 				<Item Name="NT Globals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Globals.vi"/>
+				<Item Name="NT Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean Array.vi"/>
+				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
 				<Item Name="NT Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Name Cache.vi"/>
+				<Item Name="NT Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Number.vi"/>
+				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
+				<Item Name="NT Read Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Raw.vi"/>
+				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
 				<Item Name="NT Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String.vi"/>
+				<Item Name="NT Read Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Value.vi"/>
 				<Item Name="NT Server.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Server.vi"/>
 				<Item Name="NT Update Persistence.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Update Persistence.vi"/>
 				<Item Name="NT Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Boolean Array.vi"/>
@@ -610,7 +618,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesERRGetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesERRGetRefNum.vi"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
-				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
@@ -618,7 +625,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Motor Speed.ctl" Type="VI" URL="../Dashboard/Motor Speed.ctl"/>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../../navX-MXP-LabVIEW/NI WPI/NI WPI Serial USB.lvlib"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
