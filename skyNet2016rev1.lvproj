@@ -115,6 +115,7 @@ AddOutputFilter chunkFilter
 			<Item Name="TEST.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TEST.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/Toggle.vi"/>
 			<Item Name="TriggerPosPID.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerPosPID.vi"/>
+			<Item Name="TriggerPosPID_CTR.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerPosPID_CTR.vi"/>
 			<Item Name="TriggerRotateLogic.vi" Type="VI" URL="../../FIRST-3958-Controls-Library/FIRST FRC LabVIEW Library/FRC3958_DesignLibrary.llb/TriggerRotateLogic.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
