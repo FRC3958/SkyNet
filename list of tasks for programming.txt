@@ -1,0 +1,47 @@
+1. Tune arm PID so that we can have set position buttons and so that we can set up the set position buttons
+Status: In que
+
+1.5. Make sure that the robot can move in autonomous and we can go under the low-bar if aligned correctly (even if that means taking out the custon sub vi and putting it in running, you know)
+Status: In que
+
+2. Turning Autonomous
+Status: In queue
+
+3. Autonomous
+	-hold arm up
+	-shoot low goal
+Status: In que 
+4. Re-map all of Drew's many, many, many, many, many, buttons
+	-switch a few buttons functionality
+	-button increments (check to see if it works in the PID arm sub vi)
+Stauts: No longer "in que", we got 'er done
+
+
+5. Add the second camera
+	-decide how to display the view from the second camera (investigate having a second screen)
+Status: In que
+
+6. Make Dan's hand better (possible PID)
+Status: In que
+
+6.5. Add in Chase's reflective tape vision program, relation to the movement of the robot
+Status: In que
+
+7. Sensing obstacles using sensors of sorts (sonar, etc...)
+Status: In que
+
+8. Dan's hand moves back, motors rev up, Dan's hand pushes the ball forward, he shoots...he scores
+Status: In que
+
+
+
+
+
+
+
+
+
+100,003,000. Noah's one shot wonder
+Status: We'll get to it after we make single button that wins the entire game and makes Ian 6' 8". So pretty soon!
+
+	
