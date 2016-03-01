@@ -1,8 +1,10 @@
+0. Check left side encoder feedback, motors 4 & 5 (right side OK)
+
 1. Tune arm PID so that we can have set position buttons and so that we can set up the set position buttons
 Status: In que
 
 1.5. Make sure that the robot can move in autonomous and we can go under the low-bar if aligned correctly (even if that means taking out the custon sub vi and putting it in running, you know)
-Status: In que
+Status: In queue
 
 2. Turning Autonomous
 Status: In queue
